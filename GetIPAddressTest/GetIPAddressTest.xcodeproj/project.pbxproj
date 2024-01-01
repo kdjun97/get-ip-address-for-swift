@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B7B372AA2B42CECE00D81D07 /* GetIPAddressTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372A92B42CECE00D81D07 /* GetIPAddressTestApp.swift */; };
-		B7B372AC2B42CECE00D81D07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372AB2B42CECE00D81D07 /* ContentView.swift */; };
+		B7B372AC2B42CECE00D81D07 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372AB2B42CECE00D81D07 /* MyApp.swift */; };
 		B7B372AE2B42CED000D81D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B372AD2B42CED000D81D07 /* Assets.xcassets */; };
 		B7B372B12B42CED000D81D07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B372B02B42CED000D81D07 /* Preview Assets.xcassets */; };
 		B7B372BB2B42CED000D81D07 /* GetIPAddressTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372BA2B42CED000D81D07 /* GetIPAddressTestTests.swift */; };
 		B7B372C52B42CED000D81D07 /* GetIPAddressTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372C42B42CED000D81D07 /* GetIPAddressTestUITests.swift */; };
 		B7B372C72B42CED000D81D07 /* GetIPAddressTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372C62B42CED000D81D07 /* GetIPAddressTestUITestsLaunchTests.swift */; };
+		B7B372D82B42D2B800D81D07 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B372D72B42D2B800D81D07 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		B7B372A62B42CECE00D81D07 /* GetIPAddressTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetIPAddressTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B372A92B42CECE00D81D07 /* GetIPAddressTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIPAddressTestApp.swift; sourceTree = "<group>"; };
-		B7B372AB2B42CECE00D81D07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7B372AB2B42CECE00D81D07 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		B7B372AD2B42CED000D81D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B372B02B42CED000D81D07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7B372B62B42CED000D81D07 /* GetIPAddressTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPAddressTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		B7B372C02B42CED000D81D07 /* GetIPAddressTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetIPAddressTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B372C42B42CED000D81D07 /* GetIPAddressTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIPAddressTestUITests.swift; sourceTree = "<group>"; };
 		B7B372C62B42CED000D81D07 /* GetIPAddressTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIPAddressTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7B372D72B42D2B800D81D07 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				B7B372A92B42CECE00D81D07 /* GetIPAddressTestApp.swift */,
-				B7B372AB2B42CECE00D81D07 /* ContentView.swift */,
+				B7B372AB2B42CECE00D81D07 /* MyApp.swift */,
 				B7B372AD2B42CED000D81D07 /* Assets.xcassets */,
 				B7B372AF2B42CED000D81D07 /* Preview Content */,
+				B7B372D72B42D2B800D81D07 /* ViewModel.swift */,
 			);
 			path = GetIPAddressTest;
 			sourceTree = "<group>";
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B372AC2B42CECE00D81D07 /* ContentView.swift in Sources */,
+				B7B372AC2B42CECE00D81D07 /* MyApp.swift in Sources */,
+				B7B372D82B42D2B800D81D07 /* ViewModel.swift in Sources */,
 				B7B372AA2B42CECE00D81D07 /* GetIPAddressTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
